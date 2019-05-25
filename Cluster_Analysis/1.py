@@ -34,4 +34,4 @@ plt.show(block=True)
 
 print(df3.shape)
 
-df[(df.estimated_value<=1000000) & (df.yearBuilt>)]
+# df[(df.estimated_value<=1000000) & (df.yearBuilt>)]
