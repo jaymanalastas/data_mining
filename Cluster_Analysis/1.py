@@ -13,16 +13,25 @@ df = pd.read_csv(r"C:\Users\14078\PycharmProjects\Data_Mining\Cluster_Analysis\s
 # print(df.describe()) # shows the count, mean, std, min, 25%, 50%, 75% and max
 
 
-# df2 = df.fillna(0) #fills in missing value for any null with in the CSV file
+df2 = df.fillna(0) #fills in missing value for any null with in the CSV file
 # print(df2.info())
 #
 # df3 = df.fillna(df.mean()) #fills null values with mean
 # print(df3.info())
 
-df.dropna(inplace = True)
+# df.dropna(inplace = True)
 # # print(df.info())
 # print(sns.boxplot(df.estimated_value)) #shows a box plot for the estimated_value
 # plt.show(block=True)
 # df2 = df.fillna('missing')
 # print(df2[['estimated_value','yearBuilt','priorSaleAmount']].head(2))
-print(df[df.estimated_value<=800000].shape) #creates parameters that prints what we need from the data sets
+# print(df[df.estimated_value<=1000000].shape)  #creates parameters that prints what we need from the data sets
+
+df3 = df2.estimated_value>=1000000
+# print(df3)
+print(sns.boxplot(df2.estimated_value))
+plt.show(block=True)
+
+print(df3.shape)
+
+df[(df.estimated_value<=1000000) & (df.yearBuilt>)]
