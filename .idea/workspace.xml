@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="width" value="1149" />
     <option name="height" value="1454" />
@@ -107,7 +107,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MasteringPython/03. productivity_tool/productivity_tool.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MasteringPython" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,15 +163,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="766" height="969" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14109589" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15711395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293556" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32624114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
